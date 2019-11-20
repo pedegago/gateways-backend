@@ -1,0 +1,59 @@
+[
+    {
+        "serial": "G0-58651",
+        "name": "Classroom",
+        "ipv4": "190.6.87.122",
+        "devices": [
+            {
+                "id": 1,
+                "vendor": "Netgear",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 2,
+                "vendor": "Cisco",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": false
+            },
+            {
+                "id": 3,
+                "vendor": "Huawei",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            }
+        ]
+    },
+    {
+        "serial": "G1-75412",
+        "name": "Office",
+        "ipv4": "200.55.128.6",
+        "devices": [
+            {
+                "id": 4,
+                "vendor": "Huawei",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            }
+        ]
+    },
+    {
+        "serial": "G2-32569",
+        "name": "Park",
+        "ipv4": "200.190.83.3",
+        "devices": [
+            {
+                "id": 5,
+                "vendor": "Netgear",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 6,
+                "vendor": "Cisco",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": false
+            }
+        ]
+    }
+]

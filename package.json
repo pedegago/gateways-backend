@@ -1,0 +1,14 @@
+{
+  "name": "gateways-backend",
+  "version": "1.0.0",
+  "description": "Musala Soft simple project for managing gateways.",
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+  "author": "Pablo David Gago Ballester",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
+  }
+}
