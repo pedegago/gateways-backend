@@ -35,24 +35,25 @@ const addDevice = (req, res) => {
     );
     id++;
 
+    // Creates the device object.
+    const device = {
+        id,
+        vendor,
+        isOnline: !!isOnline,
+        dateCreated: new Date()
+    };
+
     // Found and update the device information.
     _.each(gateways, (g) => {
         if (g.serial == req.gateway.serial) {
-            g.devices.push({
-                id,
-                vendor,
-                isOnline: !!isOnline,
-                dateCreated: new Date(),
-            });
+            g.devices.push(device);
 
             return false;
         }
     });
 
-    // Returns the new resource uri.
-    res.status(201).json({
-        uri: `/api/gateways/${req.gateway.serial}/devices/${id}`
-    });
+    // Returns the new resource.
+    res.status(201).json(device);
 };
 
 /**

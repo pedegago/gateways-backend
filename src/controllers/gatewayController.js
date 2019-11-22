@@ -23,18 +23,19 @@ const getAllGateways = (req, res) => {
 const addGateway = (req, res) => {
     const { serial, name, ipv4 } = req.body;
 
-    // Inserts new gateway with an empty list of devices.
-    gateways.push({
+    // Creates the gateway object with an empty list of devices.
+    const gateway = {
         serial,
         name,
         ipv4,
         devices: []
-    });
+    };
 
-    // Returns the new resource uri.
-    res.status(201).json({
-        uri: `/api/gateways/${serial}`
-    });
+    // Inserts new gateway into database.
+    gateways.push(gateway);
+
+    // Returns the new resource.
+    res.status(201).json(gateway);
 };
 
 /**

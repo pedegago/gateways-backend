@@ -2,6 +2,7 @@
  * Required modules.
  */
 const express = require("express");
+const cors = require("cors");
 const gatewayRoutes = require("./routes/gatewayRoutes");
 const deviceRoutes = require("./routes/deviceRoutes");
 const { getGatewayByParam } = require("./middlewares/gatewayMiddlewares");
@@ -14,12 +15,14 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 /**
- * App configuration with basic security
- * actions
+ * App configuration and basic security actions.
  */
 app.set("port", PORT);
-app.use(express.json());
 app.disable('x-powered-by');
+app.use(express.json());
+app.use(cors({
+    origin: "*"
+}));
 
 /**
  * Routes definitions for gateways
