@@ -21,6 +21,249 @@
                 "vendor": "Huawei",
                 "dateCreated": "2019-11-20T12:58:58.994Z",
                 "isOnline": true
+            },
+            {
+                "id": 4,
+                "vendor": "Netgear",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 5,
+                "vendor": "Cisco",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": false
+            },
+            {
+                "id": 6,
+                "vendor": "Huawei",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 7,
+                "vendor": "Netgear",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 8,
+                "vendor": "Cisco",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": false
+            },
+            {
+                "id": 9,
+                "vendor": "Huawei",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 10,
+                "vendor": "Huawei",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            }
+        ]
+    },
+    {
+        "serial": "G5-58656",
+        "name": "Classroom 2",
+        "ipv4": "190.6.87.122",
+        "devices": [
+            {
+                "id": 1,
+                "vendor": "Netgear",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 2,
+                "vendor": "Cisco",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": false
+            },
+            {
+                "id": 3,
+                "vendor": "Huawei",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 4,
+                "vendor": "Netgear",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 5,
+                "vendor": "Cisco",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": false
+            },
+            {
+                "id": 6,
+                "vendor": "Huawei",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 7,
+                "vendor": "Netgear",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 8,
+                "vendor": "Cisco",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": false
+            },
+            {
+                "id": 9,
+                "vendor": "Huawei",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 10,
+                "vendor": "Huawei",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            }
+        ]
+    },
+    {
+        "serial": "G9-58623",
+        "name": "Classroom 3",
+        "ipv4": "190.6.87.122",
+        "devices": [
+            {
+                "id": 1,
+                "vendor": "Netgear",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 2,
+                "vendor": "Cisco",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": false
+            },
+            {
+                "id": 3,
+                "vendor": "Huawei",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 4,
+                "vendor": "Netgear",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 5,
+                "vendor": "Cisco",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": false
+            },
+            {
+                "id": 6,
+                "vendor": "Huawei",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 7,
+                "vendor": "Netgear",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 8,
+                "vendor": "Cisco",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": false
+            },
+            {
+                "id": 9,
+                "vendor": "Huawei",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 10,
+                "vendor": "Huawei",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            }
+        ]
+    },
+    {
+        "serial": "G6-51231",
+        "name": "Classroom 4",
+        "ipv4": "190.6.87.122",
+        "devices": [
+            {
+                "id": 1,
+                "vendor": "Netgear",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 2,
+                "vendor": "Cisco",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": false
+            },
+            {
+                "id": 3,
+                "vendor": "Huawei",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 4,
+                "vendor": "Netgear",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 5,
+                "vendor": "Cisco",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": false
+            },
+            {
+                "id": 6,
+                "vendor": "Huawei",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 7,
+                "vendor": "Netgear",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 8,
+                "vendor": "Cisco",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": false
+            },
+            {
+                "id": 9,
+                "vendor": "Huawei",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
+            },
+            {
+                "id": 10,
+                "vendor": "Huawei",
+                "dateCreated": "2019-11-20T12:58:58.994Z",
+                "isOnline": true
             }
         ]
     },
